@@ -1,0 +1,53 @@
+﻿@page "/InsertNewGame"
+@rendermode InteractiveServer
+
+
+<PageTitle>Inseratr nuevo juego</PageTitle>
+
+
+
+<h1>Insertar nuevo juego</h1>
+
+<input type="text" placeholder="Titulo" @bind="title" />
+<input type="text" placeholder="Puntuacion" @bind="punctuation" />
+<input type="text" placeholder="Precio" @bind="price" />
+
+
+<button class="btn btn-primary" @onclick="InsertnewGame">Inserta nuevo juego</button>
+<p style="color: @colour">@msj</p>
+
+
+@code {
+    
+    private string punctuation = "";
+    private string title = "";
+    private string price = "";
+
+    private string msj = "";
+    private string colour = "";
+
+    private async Task InsertnewGame()
+    {
+        var result = new ApiService();
+        if (int.TryParse(punctuation, out int numPuntuacion) && float.TryParse(price, out float numPrice) && !string.IsNullOrWhiteSpace(title))
+        {
+            var result1 = await result.InsertGameAsync(title, numPuntuacion, numPrice);
+            if (result1.IsSuccessStatusCode)
+            {
+                msj = "Se ha insertado exitosamente el juego!";
+                colour = "green";
+            }
+            else
+            {
+                msj = await result1.Content.ReadAsStringAsync();
+                colour = "red";
+            }
+        }
+        else
+        {
+            msj = "Alguno de los campos es incorrecto o esta vacio";
+            colour = "red";
+        }
+
+    }
+}

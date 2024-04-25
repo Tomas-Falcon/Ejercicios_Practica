@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TOMAS\\source\\repos\\Tests\\DemoAOT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D246808B-89DE-4F66-94F7-D54D42E983B5}|DemoAOT\\DemoAOT.csproj|c:\\users\\tomas\\source\\repos\\tests\\demoaot\\demoaot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D246808B-89DE-4F66-94F7-D54D42E983B5}|DemoAOT\\DemoAOT.csproj|solutionrelative:demoaot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D246808B-89DE-4F66-94F7-D54D42E983B5}|DemoAOT\\DemoAOT.csproj|c:\\users\\tomas\\source\\repos\\tests\\demoaot\\demoaot\\demoaot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D246808B-89DE-4F66-94F7-D54D42E983B5}|DemoAOT\\DemoAOT.csproj|solutionrelative:demoaot\\demoaot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DemoAOT.http",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\DemoAOT\\DemoAOT\\DemoAOT.http",
+              "RelativeDocumentMoniker": "DemoAOT\\DemoAOT.http",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\DemoAOT\\DemoAOT\\DemoAOT.http",
+              "RelativeToolTip": "DemoAOT\\DemoAOT.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-18T08:00:21.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\DemoAOT\\DemoAOT\\Program.cs",
+              "RelativeDocumentMoniker": "DemoAOT\\Program.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\DemoAOT\\DemoAOT\\Program.cs",
+              "RelativeToolTip": "DemoAOT\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T07:58:51.615Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

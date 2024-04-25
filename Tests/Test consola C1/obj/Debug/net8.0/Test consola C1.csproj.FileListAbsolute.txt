@@ -1,0 +1,14 @@
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\bin\Debug\net8.0\Test consola C1.exe
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\bin\Debug\net8.0\Test consola C1.deps.json
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\bin\Debug\net8.0\Test consola C1.runtimeconfig.json
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\bin\Debug\net8.0\Test consola C1.dll
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\bin\Debug\net8.0\Test consola C1.pdb
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\obj\Debug\net8.0\Test consola C1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\obj\Debug\net8.0\Test consola C1.AssemblyInfoInputs.cache
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\obj\Debug\net8.0\Test consola C1.AssemblyInfo.cs
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\obj\Debug\net8.0\Test consola C1.csproj.CoreCompileInputs.cache
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\obj\Debug\net8.0\Test consola C1.dll
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\obj\Debug\net8.0\refint\Test consola C1.dll
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\obj\Debug\net8.0\Test consola C1.pdb
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\obj\Debug\net8.0\Test consola C1.genruntimeconfig.cache
+C:\Users\TOMAS\source\repos\Tests\Test consola C1\obj\Debug\net8.0\ref\Test consola C1.dll

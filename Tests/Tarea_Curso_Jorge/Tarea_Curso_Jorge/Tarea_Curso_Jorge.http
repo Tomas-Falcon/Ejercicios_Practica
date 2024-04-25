@@ -1,0 +1,6 @@
+@Tarea_Curso_Jorge_HostAddress = http://localhost:5165
+
+GET {{Tarea_Curso_Jorge_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

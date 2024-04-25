@@ -1,0 +1,53 @@
+﻿@page "/DeleteById/{base64String}"
+@using System.Text.Json
+@using System.Text
+@rendermode InteractiveServer
+@inject NavigationManager NavigationManager
+
+
+<p>Se va a borrar el juego con el nombre @title, si no lo quiere borrar, simplemente regrese</p>
+<br/>
+<button class="btn btn-primary" @onclick="DeletebyId">Borrar</button>
+<p style="color: @colour">@msj</p>
+<br />
+<button class="btn btn-primary" @onclick="Regresar">Regresar</button>
+
+
+@code {
+    private string id = "";
+    private string msj = "";
+    private string colour = "";
+    
+    [Parameter]
+    public string base64String { get; set; }
+    private string title = "";
+    private string Id = "";
+    protected override void OnParametersSet()
+    {
+        string decodedJson = Encoding.UTF8.GetString(Convert.FromBase64String(base64String));
+        Games g = JsonSerializer.Deserialize<Games>(decodedJson);
+        title = g.Titulo;
+        Id = g.Id.ToString();
+    }
+
+    private async Task DeletebyId()
+    {
+       
+        var result = await new ApiService().Delete("Delete", Id);
+        if (result.IsSuccessStatusCode)
+        {
+            msj = "Se ha borrado exitosamente!";
+            colour = "green";
+        }
+        else
+        {
+            msj = await result.Content.ReadAsStringAsync();
+            colour = "red";
+        }
+    }
+
+    private void Regresar()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}

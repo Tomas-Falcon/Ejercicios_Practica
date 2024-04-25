@@ -1,0 +1,59 @@
+﻿@page "/GameByName"
+@rendermode InteractiveServer
+
+<PageTitle>Juegos por nombre</PageTitle>
+
+<h1>Juegos por nombre</h1>
+
+<input type="text" @bind="nameText" />
+
+<button class="btn btn-primary" @onclick="SearchByName">Buscar</button>
+
+@if (juegos == null)
+{
+    <p><em>Cargando, esperando por un nombre. . . </em></p>
+}
+else if (juegos.Count == 0)
+{
+    <p>Juego no encontrado..</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Titulo</th>
+                <th>Puntuacion</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var juego in juegos)
+            {
+                <tr>
+                    <td>@juego.Id</td>
+                    <td>@juego.Titulo</td>
+                    <td>@juego.Puntuacion</td>
+                    <td>@juego.Precio</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private string nameText = "";
+    private List<Games> juegos;
+
+    private async Task SearchByName()
+    {
+        if (string.IsNullOrWhiteSpace(nameText))
+        {
+            //TODO hacer un mensaje para el usuario
+            return;
+        }
+        var a = new ApiService();
+        juegos = await a.GetDataAsync("ExistGame", nameText);
+    }
+}

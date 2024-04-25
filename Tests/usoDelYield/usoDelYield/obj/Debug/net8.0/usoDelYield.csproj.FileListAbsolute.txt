@@ -1,0 +1,14 @@
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\bin\Debug\net8.0\usoDelYield.exe
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\bin\Debug\net8.0\usoDelYield.deps.json
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\bin\Debug\net8.0\usoDelYield.runtimeconfig.json
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\bin\Debug\net8.0\usoDelYield.dll
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\bin\Debug\net8.0\usoDelYield.pdb
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\obj\Debug\net8.0\usoDelYield.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\obj\Debug\net8.0\usoDelYield.AssemblyInfoInputs.cache
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\obj\Debug\net8.0\usoDelYield.AssemblyInfo.cs
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\obj\Debug\net8.0\usoDelYield.csproj.CoreCompileInputs.cache
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\obj\Debug\net8.0\usoDelYield.dll
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\obj\Debug\net8.0\refint\usoDelYield.dll
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\obj\Debug\net8.0\usoDelYield.pdb
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\obj\Debug\net8.0\usoDelYield.genruntimeconfig.cache
+C:\Users\TOMAS\source\repos\Tests\usoDelYield\usoDelYield\obj\Debug\net8.0\ref\usoDelYield.dll

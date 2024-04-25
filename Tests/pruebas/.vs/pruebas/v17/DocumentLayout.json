@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TOMAS\\source\\repos\\Tests\\pruebas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C68EAD6B-B753-4CD1-A1EA-17C9AA7EDDFB}|pruebas\\pruebas.csproj|c:\\users\\tomas\\source\\repos\\tests\\pruebas\\pruebas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C68EAD6B-B753-4CD1-A1EA-17C9AA7EDDFB}|pruebas\\pruebas.csproj|solutionrelative:pruebas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\pruebas\\pruebas\\Program.cs",
+              "RelativeDocumentMoniker": "pruebas\\Program.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\pruebas\\pruebas\\Program.cs",
+              "RelativeToolTip": "pruebas\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T10:27:53.352Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

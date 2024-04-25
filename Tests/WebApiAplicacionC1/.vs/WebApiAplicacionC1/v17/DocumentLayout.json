@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TOMAS\\source\\repos\\Tests\\WebApiAplicacionC1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A309ADBA-3DA6-4239-BA62-A08CB7BD08C6}|WebApiAplicacionC1\\WebApiAplicacionC1.csproj|c:\\users\\tomas\\source\\repos\\tests\\webapiaplicacionc1\\webapiaplicacionc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A309ADBA-3DA6-4239-BA62-A08CB7BD08C6}|WebApiAplicacionC1\\WebApiAplicacionC1.csproj|solutionrelative:webapiaplicacionc1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A309ADBA-3DA6-4239-BA62-A08CB7BD08C6}|WebApiAplicacionC1\\WebApiAplicacionC1.csproj|c:\\users\\tomas\\source\\repos\\tests\\webapiaplicacionc1\\webapiaplicacionc1\\infraestructure\\bloggingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A309ADBA-3DA6-4239-BA62-A08CB7BD08C6}|WebApiAplicacionC1\\WebApiAplicacionC1.csproj|solutionrelative:webapiaplicacionc1\\infraestructure\\bloggingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A309ADBA-3DA6-4239-BA62-A08CB7BD08C6}|WebApiAplicacionC1\\WebApiAplicacionC1.csproj|c:\\users\\tomas\\source\\repos\\tests\\webapiaplicacionc1\\webapiaplicacionc1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A309ADBA-3DA6-4239-BA62-A08CB7BD08C6}|WebApiAplicacionC1\\WebApiAplicacionC1.csproj|solutionrelative:webapiaplicacionc1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\WebApiAplicacionC1\\WebApiAplicacionC1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiAplicacionC1\\Program.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\WebApiAplicacionC1\\WebApiAplicacionC1\\Program.cs",
+              "RelativeToolTip": "WebApiAplicacionC1\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T07:58:51.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\WebApiAplicacionC1\\WebApiAplicacionC1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiAplicacionC1\\appsettings.json",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\WebApiAplicacionC1\\WebApiAplicacionC1\\appsettings.json",
+              "RelativeToolTip": "WebApiAplicacionC1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-16T11:12:37.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BloggingContext.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\WebApiAplicacionC1\\WebApiAplicacionC1\\Infraestructure\\BloggingContext.cs",
+              "RelativeDocumentMoniker": "WebApiAplicacionC1\\Infraestructure\\BloggingContext.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\WebApiAplicacionC1\\WebApiAplicacionC1\\Infraestructure\\BloggingContext.cs",
+              "RelativeToolTip": "WebApiAplicacionC1\\Infraestructure\\BloggingContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T10:35:06.554Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
