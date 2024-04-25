@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\",
+  "WorkspaceRootPath": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,55 +30,52 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
               "RelativeToolTip": "Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:23:38.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T13:23:38.922Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Program.cs",
               "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\Program.cs",
-              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Program.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Program.cs",
               "RelativeToolTip": "Tarea_Curso_Jorge\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAABAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T13:18:04.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
               "RelativeToolTip": "Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T12:55:53.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T12:55:53.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Repository\\Repository.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Repository\\Repository.cs",
               "RelativeToolTip": "Tarea_Curso_Jorge\\Repository\\Repository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:14:31.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T13:14:31.685Z"
             }
           ]
         }

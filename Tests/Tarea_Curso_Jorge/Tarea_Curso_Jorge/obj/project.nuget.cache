@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ay5CiJ4B1N2vbOOoCyYcmM3zAAents22aOpeclZ3u+r5sK+oQ/j4QCy4Yt+Bjv2V/Mw5QYl+9ryguXUi5PP3Dg==",
+  "dgSpecHash": "UJf0Q4IOVe6zX4xXIapIbYLmd5bwCHCl15nd7o6ITr7wcG9KKnSUvncSEQNuIClpC26WXVE9DmMqQDsC0jZ3PQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj",
+  "projectFilePath": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TOMAS\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\TOMAS\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

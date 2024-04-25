@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\BlazorApp1.csproj",
+        "projectPath": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\BlazorApp1.csproj",
         "packagesPath": "C:\\Users\\TOMAS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOMAS\\source\\repos\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\obj\\",
+        "outputPath": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
