@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tarea_Curso_Jorge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a274babfdebe471b71fb0440a41a9401dd28da98")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+539dd687b04adac7d3187aba6cbbaf507ad16d6c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tarea_Curso_Jorge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tarea_Curso_Jorge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

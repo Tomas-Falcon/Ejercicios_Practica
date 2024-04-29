@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "tarea_curso_jorge": "StartDebugging",
+        "blazorapp1": "StartDebugging"
+      }
+    }
+  }
+}

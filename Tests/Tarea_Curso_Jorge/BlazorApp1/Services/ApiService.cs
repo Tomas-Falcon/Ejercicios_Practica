@@ -12,7 +12,9 @@
         public ApiService()
         {
             _httpClient = new HttpClient();
-            _httpClient.BaseAddress = new Uri("http://localhost:5165");
+            
+            var urlApi = Environment.GetEnvironmentVariable("URLAPI");
+            _httpClient.BaseAddress = new Uri(urlApi);
         }
 
         ~ApiService() { _httpClient.Dispose(); }
@@ -24,7 +26,7 @@
 
         public async Task<List<Games>> GetDataAsync(string endpoint, string nombre)
         {
-            return await _httpClient.GetFromJsonAsync<List<Games>>($"{endpoint}?nombre={nombre}");
+            return await _httpClient.GetFromJsonAsync<List<Games>>($"{endpoint}?name={nombre}");
         }
 
         public async Task<HttpResponseMessage> Delete(string endpoint, string id)

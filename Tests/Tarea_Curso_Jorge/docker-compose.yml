@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  seq:
+   image: datalust/seq:latest 
+
+  sqlserver:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+
+  tarea_curso_jorge:
+    image: ${DOCKER_REGISTRY-}tareacursojorge
+    build:
+      context: .
+      dockerfile: Tarea_Curso_Jorge/Dockerfile
+
+  blazorapp1:
+    image: ${DOCKER_REGISTRY-}blazorapp1
+    build:
+      context: .
+      dockerfile: BlazorApp1/Dockerfile
+

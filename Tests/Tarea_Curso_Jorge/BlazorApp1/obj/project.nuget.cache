@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8T2I3h0G2LEwYJan9K2cucmJ35RH94lCiwzqwRX6eH11tIXWkPWeHUj9X6CUJGw+B5AN+NvSCEzPya1ltnc3wQ==",
+  "dgSpecHash": "OLMkccDzwW2q0RslgMGXXlAkq4UQuRurlQUd1NsaYniDe+MgRQgyjd74fNF1QihoAvZvIHBhBKHn6DxM+9fWzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\BlazorApp1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\TOMAS\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
   "logs": []
 }

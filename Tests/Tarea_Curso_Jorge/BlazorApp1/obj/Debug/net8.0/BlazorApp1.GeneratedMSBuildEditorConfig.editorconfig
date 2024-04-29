@@ -38,16 +38,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/TOMAS/source/repos/Ejercicios_Practica/Tests/Tarea_Curso_Jorge/BlazorApp1/Components/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGZXRjaERhdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/TOMAS/source/repos/Ejercicios_Practica/Tests/Tarea_Curso_Jorge/BlazorApp1/Components/Pages/GameByName.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xHYW1lQnlOYW1lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TOMAS/source/repos/Ejercicios_Practica/Tests/Tarea_Curso_Jorge/BlazorApp1/Components/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/TOMAS/source/repos/Ejercicios_Practica/Tests/Tarea_Curso_Jorge/BlazorApp1/Components/Pages/InsertNewGame.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xJbnNlcnROZXdHYW1lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOMAS/source/repos/Ejercicios_Practica/Tests/Tarea_Curso_Jorge/BlazorApp1/Components/Pages/WeatherDay.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyRGF5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOMAS/source/repos/Ejercicios_Practica/Tests/Tarea_Curso_Jorge/BlazorApp1/Components/Pages/Weeklyforecast.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWVrbHlmb3JlY2FzdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/TOMAS/source/repos/Ejercicios_Practica/Tests/Tarea_Curso_Jorge/BlazorApp1/Components/Routes.razor]

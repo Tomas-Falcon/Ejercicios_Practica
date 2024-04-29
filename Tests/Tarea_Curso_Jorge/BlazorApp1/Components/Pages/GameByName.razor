@@ -1,28 +1,23 @@
-﻿@page "/GameByName"
-@rendermode InteractiveServer
+﻿@page "/GameByName/{_nameText}"
+@inject NavigationManager NavigationManager
 
 <PageTitle>Juegos por nombre</PageTitle>
 
 <h1>Juegos por nombre</h1>
 
-<input type="text" @bind="nameText" />
-
-<button class="btn btn-primary" @onclick="SearchByName">Buscar</button>
-
 @if (juegos == null)
 {
-    <p><em>Cargando, esperando por un nombre. . . </em></p>
+    <p><em>Cargando, esperando por un nombre...</em></p>
 }
 else if (juegos.Count == 0)
 {
-    <p>Juego no encontrado..</p>
+    <p>Juego no encontrado.</p>
 }
 else
 {
     <table class="table">
         <thead>
             <tr>
-                <th>Id</th>
                 <th>Titulo</th>
                 <th>Puntuacion</th>
                 <th>Precio</th>
@@ -32,7 +27,6 @@ else
             @foreach (var juego in juegos)
             {
                 <tr>
-                    <td>@juego.Id</td>
                     <td>@juego.Titulo</td>
                     <td>@juego.Puntuacion</td>
                     <td>@juego.Precio</td>
@@ -41,19 +35,34 @@ else
         </tbody>
     </table>
 }
+<button class="btn btn-primary" @onclick="Regresar">Regresar</button>
 
 @code {
-    private string nameText = "";
+    [Parameter]
+    public string _nameText { get; set; }
     private List<Games> juegos;
 
-    private async Task SearchByName()
+    protected override async Task OnInitializedAsync()
     {
-        if (string.IsNullOrWhiteSpace(nameText))
+        if (string.IsNullOrWhiteSpace(_nameText))
         {
-            //TODO hacer un mensaje para el usuario
             return;
         }
-        var a = new ApiService();
-        juegos = await a.GetDataAsync("ExistGame", nameText);
+
+        try
+        {
+            var apiService = new ApiService(); // Suponiendo que ApiService es una clase válida
+            juegos = await apiService.GetDataAsync("ExistGame", _nameText);
+        }
+        catch (Exception ex)
+        {
+            // Manejar el error de alguna manera, como mostrar un mensaje de error o registrar el error
+            Console.WriteLine($"Error al obtener datos: {ex.Message}");
+        }
+    }
+
+    private void Regresar()
+    {
+        NavigationManager.NavigateTo("/");
     }
 }

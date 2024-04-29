@@ -6,20 +6,27 @@
 
 <h1>Listar todos los juegos</h1>
 
+<button class="btn btn-primary" @onclick="Buscar">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z" />
+    </svg>
+    Buscar
+</button>
+<input type="text" style="" placeholder="Buscar" @bind="buscar" />
+
 @if (juegos == null)
 {
     <p><em>Cargando...</em></p>
 }
 else
 {
-
     <table class="table">
         <thead>
             <tr>
                 <th>Titulo</th>
                 <th>Puntuacion</th>
                 <th>Precio</th>
-                <th>A</th>
+                <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
@@ -31,14 +38,11 @@ else
                     <td>@juego.Precio</td>
                     <td>
                         <button class="btn btn-primary" @onclick="()=> Update(juego)">
-                            @* <NavLink class="nav-link" href="EditGame"> *@
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
                                     <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z" />
-                                </svg>
-                                Actualizar
-                            @* </NavLink> *@
+                            </svg>
+                            Actualizar
                         </button>
-
                         <button class="btn btn-danger" @onclick="()=> Delete(juego)">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
                                 <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
@@ -46,7 +50,6 @@ else
                             </svg>
                             Borrar
                         </button>
-
                     </td>
                 </tr>
             }
@@ -54,49 +57,23 @@ else
     </table>
     <br />
 
-    <h1>Juegos por nombre</h1>
+    <h1>Insertar nuevo juego</h1>
 
-    <input type="text" @bind="nameText" />
+    <input type="text" placeholder="Titulo" @bind="title" />
+    <input type="text" placeholder="Puntuacion" @bind="punctuation" />
+    <input type="text" placeholder="Precio" @bind="price" />
 
-    <button class="btn btn-primary" @onclick="SearchByName">Buscar</button>
+    <button class="btn btn-primary" @onclick="InsertnewGame">Inserta nuevo juego</button>
+    <p style="color: @colour">@msj</p>
 
-    @if (juegos1 == null)
-    {
-        <p><em>Cargando, esperando por un nombre. . . </em></p>
-    }
-    else if (juegos1.Count == 0)
-    {
-        <p>Juego no encontrado..</p>
-    }
-    else
-    {
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Titulo</th>
-                    <th>Puntuacion</th>
-                    <th>Precio</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var juego in juegos1)
-                {
-                    <tr>
-                        <td>@juego.Titulo</td>
-                        <td>@juego.Puntuacion</td>
-                        <td>@juego.Precio</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    }
 
+    
 }
 
 
 @code {
     private List<Games> juegos;
-    
+    private string buscar = "";
 
     protected override async Task OnInitializedAsync()
     {
@@ -107,8 +84,11 @@ else
     protected void Update(Games game)
     {
         string jsonString = JsonSerializer.Serialize(game);
+
         string base64String = Convert.ToBase64String(Encoding.UTF8.GetBytes(jsonString));
         NavigationManager.NavigateTo($"/EditGame/{base64String}");
+
+
     }
 
     protected void Delete(Games game)
@@ -118,19 +98,50 @@ else
         NavigationManager.NavigateTo($"/DeleteById/{base64String}");
     }
 
+    /////////////////////////////////////////
+    private string punctuation = "";
+    private string title = "";
+    private string price = "";
 
-    private string nameText = "";
-    private List<Games> juegos1;
+    private string msj = "";
+    private string colour = "";
 
-    private async Task SearchByName()
+    private async Task InsertnewGame()
     {
-        if (string.IsNullOrWhiteSpace(nameText))
+        var result = new ApiService();
+        if (int.TryParse(punctuation, out int numPuntuacion) && float.TryParse(price, out float numPrice) && !string.IsNullOrWhiteSpace(title))
         {
-            //TODO hacer un mensaje para el usuario
-            return;
+            var result1 = await result.InsertGameAsync(title, numPuntuacion, numPrice);
+            if (result1.IsSuccessStatusCode)
+            {
+                msj = "Se ha insertado exitosamente el juego!";
+                colour = "green";
+            }
+            else
+            {
+                msj = await result1.Content.ReadAsStringAsync();
+                colour = "red";
+            }
         }
-        var a = new ApiService();
-        juegos1 = await a.GetDataAsync("ExistGame", nameText);
+        else
+        {
+            msj = "Alguno de los campos es incorrecto o esta vacio";
+            colour = "red";
+        }
+
+        await OnInitializedAsync();
+
     }
 
+
+    protected void Buscar()
+    {
+        if(string.IsNullOrEmpty(buscar)){
+            msj = "Es obligatorio ingresar el nombre del juego";
+            colour = "red";
+            return;
+        }
+        else NavigationManager.NavigateTo($"/GameByName/{buscar}");
+    }
 }
+

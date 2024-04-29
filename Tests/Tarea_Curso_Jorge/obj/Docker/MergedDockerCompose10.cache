@@ -1,0 +1,84 @@
+name: dockercompose6613572402347650719
+services:
+  blazorapp1:
+    build:
+      context: C:\Users\TOMAS\source\repos\Ejercicios_Practica\Tests\Tarea_Curso_Jorge
+      dockerfile: BlazorApp1/Dockerfile
+    environment:
+      APIURL: http://Tarea_Curso_Jorge:8080
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: blazorapp1
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "50002"
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        published: "50003"
+        protocol: tcp
+  seq:
+    environment:
+      ACCEPT_EULA: "Y"
+    image: datalust/seq:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "40000"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: seqdata
+        target: /data
+        volume: {}
+  sqlserver:
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Express
+      SA_PASSWORD: Pass@word
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "5433"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: sqldata
+        target: /var/opt/mssql
+        volume: {}
+  tarea_curso_jorge:
+    build:
+      context: C:\Users\TOMAS\source\repos\Ejercicios_Practica\Tests\Tarea_Curso_Jorge
+      dockerfile: Tarea_Curso_Jorge/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+    image: tareacursojorge
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "50000"
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        published: "50001"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose6613572402347650719_default
+volumes:
+  seqdata:
+    name: dockercompose6613572402347650719_seqdata
+  sqldata:
+    name: dockercompose6613572402347650719_sqldata

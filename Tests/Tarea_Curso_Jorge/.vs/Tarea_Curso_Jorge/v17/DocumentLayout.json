@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\blazorapp1\\components\\pages\\gamebyname.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\gamebyname.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\blazorapp1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\blazorapp1\\components\\pages\\allgamestable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\allgamestable.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\unitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\blazorapp1\\components\\pages\\deletebyid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4466D00F-482C-462E-BB51-EFE6F696BBA1}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\deletebyid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +37,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\tarea_curso_jorge\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43426B71-F371-43FB-A32A-FA4E547E9869}|Tarea_Curso_Jorge\\Tarea_Curso_Jorge.csproj|solutionrelative:tarea_curso_jorge\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ABB208D-086E-4EEF-83D1-DAE385E1FFCA}|docker-compose.dcproj|c:\\users\\tomas\\source\\repos\\ejercicios_practica\\tests\\tarea_curso_jorge\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2ABB208D-086E-4EEF-83D1-DAE385E1FFCA}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +54,145 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
-              "RelativeToolTip": "Tarea_Curso_Jorge\\UnitOfWork\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:23:38.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Program.cs",
-              "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\Program.cs",
-              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Program.cs",
-              "RelativeToolTip": "Tarea_Curso_Jorge\\Program.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:18:04.121Z",
+              "DocumentIndex": 5,
+              "Title": "DeleteById.razor",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Components\\Pages\\DeleteById.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\DeleteById.razor",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Components\\Pages\\DeleteById.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\DeleteById.razor",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T13:39:35.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AllGamesTable.razor",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Components\\Pages\\AllGamesTable.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\AllGamesTable.razor",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Components\\Pages\\AllGamesTable.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\AllGamesTable.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T13:32:05.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameByName.razor",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Components\\Pages\\GameByName.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\GameByName.razor",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Components\\Pages\\GameByName.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\GameByName.razor",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-29T13:21:15.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "Tarea_Curso_Jorge\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:18:49.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
               "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
               "RelativeToolTip": "Tarea_Curso_Jorge\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T12:55:53.217Z"
+              "WhenOpened": "2024-04-29T13:18:34.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\Repository\\Repository.cs",
               "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Repository\\Repository.cs",
               "RelativeToolTip": "Tarea_Curso_Jorge\\Repository\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAkwFAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:14:31.685Z"
+              "WhenOpened": "2024-04-29T13:18:21.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Tarea_Curso_Jorge\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:18:19.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Program.cs",
+              "RelativeDocumentMoniker": "Tarea_Curso_Jorge\\Program.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\Tarea_Curso_Jorge\\Program.cs",
+              "RelativeToolTip": "Tarea_Curso_Jorge\\Program.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAiwI4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:17:21.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Program.cs",
+              "RelativeToolTip": "BlazorApp1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T11:51:24.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\BlazorApp1\\Services\\ApiService.cs",
+              "RelativeToolTip": "BlazorApp1\\Services\\ApiService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAowBwAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T08:13:17.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\TOMAS\\source\\repos\\Ejercicios_Practica\\Tests\\Tarea_Curso_Jorge\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-29T07:34:09.446Z"
             }
           ]
         }
